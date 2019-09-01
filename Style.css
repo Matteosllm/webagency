@@ -82,7 +82,10 @@ header
     cursor: pointer;
 }
 
+/*menu hamburger*/
 
+
+/*fin menu hamburger*/
 header nav ul{
     padding-left: 0;
 }
@@ -207,7 +210,10 @@ header nav a:hover{
 	box-shadow: 0px 5px 5px black;
 }
 /*fin texte sur slider*/
-
+#accueil-mobile
+{
+	display:none;
+}
 /*debut services */
 #service
 {
@@ -535,10 +541,7 @@ iframe
 
  #formulaire
  {
-	 display:block;
-	 position: absolute;
-	 margin-left: 0%;
-	 margin-top:0%;
+	 display:none;
  }
  /*fin contact*/
 }
@@ -546,6 +549,18 @@ iframe
 
 /*tablette*/
 	@media all and (min-width: 681px) and (max-width:1335px){
+		/*header*/
+		header
+		{
+			flex-flow:column;
+		}
+		.logo
+		{
+			margin-left:0%;
+		}
+		header nav li:hover{
+			border-top: 0px solid;
+		}
  	/*accueil*/
 	.slide
 	{
@@ -572,7 +587,7 @@ iframe
 	 }
 	 #service{
 	 flex-flow: row;
-	 justify-content: space-around;
+	 justify-content: center;
 	 margin:4%;
 	 }
 	 #services-icones
@@ -585,9 +600,7 @@ iframe
  	/*fin services*/
 	#formulaire
 	{
-		position:relative;
-		margin-left: 0%;
-		margin-top:0%;
+		display:none;
 	}
 }
 /*fin tablette*/
