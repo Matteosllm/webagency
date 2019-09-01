@@ -39,7 +39,7 @@ h2
 {
 	position:relative;
 	bottom:900%; 
-	left:50%;
+	left:47%;
 	border: 5px solid white;
 	background-color: white;
 	font-size: 100%;
@@ -119,14 +119,14 @@ header nav a:hover{
 {
 	margin-top: 100px;
 	width: 100%;
-	height: 550px;
+	height: auto;
 	position: relative;
 	width: calc(1600px*2);
 	animation: glisse 10s infinite;
 }
 .slide
 {
-	float: left;
+	float:left;
 }
 @keyframes glisse 
 {
@@ -175,7 +175,7 @@ header nav a:hover{
 /*texte sur slider*/
 #texte
 {
-    width: 100%;
+    width: 90%;
     position: absolute;
     top: 325px;
     left: 50px;
@@ -216,6 +216,10 @@ header nav a:hover{
 	justify-content: space-around;
 	margin-bottom: 10%;
 	
+}
+#ordi-2
+{
+	display: none;
 }
 #ordi
 {
@@ -434,7 +438,6 @@ figure:hover figcaption{
     width: 270px;
     height: 500px;
     position: absolute;
-    float: right;
     margin-left:  70%;
     margin-top: 10%;
 
@@ -465,6 +468,7 @@ iframe
 	width: 100%;
 	height: 800px;
 	opacity: 0.7;
+	position:relative;
 }	
 
 #bas
@@ -481,7 +485,7 @@ iframe
 /*mobile*/
 	@media all and (max-width: 680px) {
 
-	
+	/*accueil*/
 	.slide
 	{
 		display: none;
@@ -491,55 +495,99 @@ iframe
 	}
 	.fas.fa-chevron-left{
 		display: none;
+	} 
+	#texte
+{
+    display:none;
+}
+	/*fin accueil*/
+	/*service*/
+	#ordi
+	{
+	display: none;
 	}
-}
-
-/*fin mobile*/
-	@media all and (max-width:680){
-		
-		.slide
-		{
-			display: none;
-		}
-		.fas.fa-chevron-right{
-			display: none;
-		}
-		.fas.fa-chevron-left{
-			display: none;
-		}
+	#service{
+	flex-flow: row;
+	justify-content: space-around;
+	margin:4%;
+	}
+	#services-icones
+	{
 	
-		#service
-		{
-			flex-direction: column;
-		}
-		
-		#formulaire
-		{
-		float:none;
-		width:auto;
-		}
-}
-/*tablette*/
-	@media screen and (min-width: 681) and (max-width:1279){
+	}
+	#description
+	{
+	
+	}
+	.description-1
+	{
+		margin:0;
+	}
+	/*fin service*/
+	/*debut portfolio*/
+	#menu-portfolio
+	{
+		margin-right:11%;
+	}
+	/*fin portfolio*/
 
+ /*contact*/
+
+ #formulaire
+ {
+	 display:block;
+	 position: absolute;
+	 margin-left: 0%;
+	 margin-top:0%;
+ }
+ /*fin contact*/
+}
+/*fin mobile*/
+
+/*tablette*/
+	@media all and (min-width: 681px) and (max-width:1335px){
+ 	/*accueil*/
 	.slide
 	{
 		display: none;
 	}
-	#bas
-	{
-		display: flex;
-		flex-direction:column;
-
+	.fas.fa-chevron-right{
+		display: none;
 	}
+	.fas.fa-chevron-left{
+		display: none;
+	} 
+	#texte
+{
+    display:none;
+}
+ 	/*fin accueil*/
+	 /*services*/
+	 #ordi-2
+	 {display:flex;
+	  justify-content: center;}
+	 #ordi
+	 {
+	 display: none;
+	 }
+	 #service{
+	 flex-flow: row;
+	 justify-content: space-around;
+	 margin:4%;
+	 }
+	 #services-icones
+		/*fin service*/
+		/*debut portfolio*/
+		#menu-portfolio
+		{
+			margin-right:11%;
+		}
+ 	/*fin services*/
 	#formulaire
 	{
-	background-color: rgba(240, 240, 240, 0.7);
-    width: 100%;
-    position: absolute;
-    float: none;
-    margin-left:  0%;
-    margin-top: 0%;
+		position:relative;
+		margin-left: 0%;
+		margin-top:0%;
 	}
 }
 /*fin tablette*/
