@@ -27,8 +27,11 @@
     <section><!--Début Accueil-->
         <!--Début accueil mobile et tablette-->
         <div id="accueil-mobile">
-            <h1>WEBAGENCY: L'agence de tous vos projets!</h1>
-            <p></p>
+            <h1><em>WEBAGENCY</em>: L'agence de tous vos projets!</h1>
+            <div> <p>Votre projet est unique, nos solutions sont sur-mesure.</p>
+            <p>Nous mettons notre savoir-faire et notre expérience à votre service afin de créer le site qui vous ressemble. </p>
+        </div>
+           
         </div>
         <!--fin accuei mobile et tablette-->
     	<div id="page-accueil">
@@ -53,7 +56,7 @@
 
     </section><!--Fin Accueil-->
 
-    <section><!--Début Services-->
+    <section class="section-gris"><!--Début Services-->
     	<h2 id="services">NOS SERVICES</h2>
         <div class="trait"><i class="fas fa-circle cercles-trait"></i></div>
         
@@ -99,16 +102,29 @@
     	<div class="trait"><i class="fas fa-circle cercles-trait"></i></div>
     	<p class="phrase">Le travail réalisé pour nos précédents clients</p>
 
-    	<div id="menu-portfolio">
-                <nav >
+    	
+                
                     <ul id="selection">
-                        <li id="start1" class="lis"><a href="#">All works</a></i></li>
-                        <li class="lis"><a href="#">Creative</a></i></li>
-                        <li class="lis"><a href="#">Corporate</a></li>
-                        <li id="end1" class="lis"><a href="#">Portfolio</a></li>
+                        <div>
+                        <li id="start1"><a>All-Works</a></li>
+                        <i class="fas fa-caret-down fleche-basse"></i>
+                    </div>
+                    <div>
+                        <li><a>Creative</a></li>
+                        <i class="fas fa-caret-down fleche-basse"></i>
+                    </div>
+                    <div>
+                        <li><a>Corporate</a></li>
+                        <i class="fas fa-caret-down fleche-basse"></i>
+                    </div>
+                    <div>
+                        <li id="end1"><a>Portfolio</a></li>
+                        <i class="fas fa-caret-down fleche-basse"></i>
+                    </div>
+
                     </ul> 
-                </nav>
-        </div>
+                
+   
         
             </div>
 
@@ -197,17 +213,37 @@
             </div>
         </section><!--Fin Portfolio-->       
     
-    <section><!--Début Contact-->
+    <section class="section-gris"><!--Début Contact-->
     	<h2 id="contact"> NOUS CONTACTER </h2>
     	<div class="trait"><i class="fas fa-circle cercles-trait"></i></div>
-    	
+    	<div id="formulaire-2">
+            <h3>Contact Info</h3>
+            <p>WebAgency SAS<br/>25 Rue d'Hauteville 75010 Paris<br/>Tel: 01 02 03 04 05</p>
+
+            <form method="post" action="https://webagency-projet1.netlify.com">
+                <p>
+                    <label for="pseudo"></label>
+                    <input type="text" name="pseudo" id="pseudo" placeholder="Nom" required />
+                </p> 
+                <p>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email" required/>
+                </p>
+                <p>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" placeholder="Sujet" required/>
+                </p>
+                <textarea name="message" id="message" rows="10"  placeholder="Message" required></textarea>
+                <p><input type="submit" value="Send Message" /></p>
+            </form>
+    	</div>
     <div id="bas">	
     	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.262339226118!2d4.868939315769494!3d52.365662979785284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDIxJzU2LjQiTiA0wrA1MicxNi4xIkU!5e0!3m2!1sfr!2sfr!4v1564597564921!5m2!1sfr!2sfr" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 		<div id="formulaire">
                 <h3>Contact Info</h3>
                 <p>WebAgency SAS<br/>25 Rue d'Hauteville 75010 Paris<br/>Tel: 01 02 03 04 05</p>
 
-                <form method="post" action="#page-accueil">
+                <form method="post" action="https://webagency-projet1.netlify.com">
                     <p>
                         <label for="pseudo"></label>
                         <input type="text" name="pseudo" id="pseudo" placeholder="Nom" required />
