@@ -843,10 +843,6 @@ display:none;
 /*fin contact*/
 }
 @media all and (min-width: 1116px) {
-	.section-gris
-	{
-		background-color:rgba(240, 240, 240, 0.7);
-	}
 	/*header*/
 	header
 	{
@@ -912,5 +908,6 @@ display:none;
 .cercles-trait
 {
 	display:none;
+}
 }
  /*fin accueil*/
