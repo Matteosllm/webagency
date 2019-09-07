@@ -842,7 +842,7 @@ display:none;
 
 /*fin contact*/
 }
-@media all and (min-width: 1116px) {
+@media all and (min-width: 1117px) and (max-width:1250px) {
 	/*header*/
 	header
 	{
