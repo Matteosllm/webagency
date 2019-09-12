@@ -277,6 +277,10 @@ h1+p
 /*fin services */
 /*début portfolio*/
 /*menu*/
+#section-gris-2
+{
+	background-color:rgba(240, 240, 240, 0.7);
+}
 #selection div:hover .fleche-basse {
 	opacity: 100;
 }
@@ -570,6 +574,10 @@ header nav li:hover{
 		{
 			background-color:rgba(240, 240, 240, 0.7);
 		}
+		#section-gris-2
+{
+	background-color:white;
+}
 		/*header*/
 		header
 		{
@@ -692,6 +700,10 @@ header nav li:hover{
 	{
 		background-color:rgba(240, 240, 240, 0.7);
 	}
+	#section-gris-2
+{
+	background-color:white;
+}
 	h2
 	{
 		font-size:180%;
@@ -859,7 +871,7 @@ display:none;
 }
 }
  /*fin accueil*/
-@media all and (min-width: 1528px)
+@media all and (min-width: 1650px)
 {
 	.point-bleu-icones
 	{
