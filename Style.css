@@ -113,6 +113,10 @@ header nav a:hover
 	overflow: hidden;
 	margin-bottom: 6%;
 }
+.slide
+{
+	float:left;
+}
 #slider
 {
 	margin-top: 100px;
@@ -121,10 +125,6 @@ header nav a:hover
 	position: relative;
 	width: calc(1600px*2);
 	animation: glisse 10s infinite;
-}
-.slide
-{
-	float:left;
 }
 @keyframes glisse 
 {
@@ -281,9 +281,6 @@ h1+p
 {
 	background-color:rgba(240, 240, 240, 0.7);
 }
-#selection div:hover .fleche-basse {
-	opacity: 100;
-}
 .fas.fa-caret-down
 {
 	color: #0088a9;
@@ -327,6 +324,9 @@ h1+p
     right: -30px;
     top:-12px;
     opacity:0;
+}
+#selection div:hover .fleche-basse {
+	opacity: 1;
 }
 #selection a{
     text-decoration: none;
@@ -481,7 +481,7 @@ p
 	}
 #accueil-mobile p
 	{
-		font-size:80%;
+		font-size:180%;
 	}
 em
 	{
@@ -619,11 +619,7 @@ header nav li:hover{
 	{
 		width:100%;
 	}
-	#accueil-mobile p
-	{
-		font-size:80%;
-		
-	}
+
 	em
 	{
 		font-size: 100%;
@@ -745,11 +741,6 @@ p
 {
 	width:100%;
 }
-#accueil-mobile p
-{
-	font-size:80%;
-	
-}
 em
 {
 	font-size: 100%;
@@ -844,11 +835,7 @@ p
 {
 	width:100%;
 }
-#accueil-mobile p
-{
-	font-size:80%;
-	
-}
+
 em
 {
 	font-size: 100%;
