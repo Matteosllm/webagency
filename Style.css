@@ -479,6 +479,9 @@ p
 	{
 		width:100%;
 	}
+h3 p {
+	font-size:100%;
+}
 #accueil-mobile p
 	{
 		font-size:180%;
