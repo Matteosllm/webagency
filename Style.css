@@ -459,7 +459,7 @@ iframe
 	}
 h2
 	{
-		font-size:180%;
+		font-size:210%;
 	}
 	/*accueil*/
 #accueil-mobile
@@ -479,6 +479,10 @@ p
 	{
 		width:100%;
 	}
+h3
+{
+ font-size:130%;
+}
 h3 p {
 	font-size:100%;
 }
