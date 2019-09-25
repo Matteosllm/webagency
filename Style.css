@@ -297,35 +297,36 @@ h1+p
 {
 	padding: 7px;
 	background-color: rgb(230, 230, 230);
-	border-bottom: 1px solid rgb(118, 121, 126);
+	border-bottom: 3px solid rgb(230,230,230);
+	position: relative;
 }
 #selection li:hover
 {
-	background-color: #0088a9;
+	background-color: #39B5CA;
+	border-bottom: 3px solid #0088a9;
 }
 #start1
 {
 	border-bottom-left-radius:10%;
 	border-top-left-radius:10%;
-	background-color: #0088a9;
-	border-bottom: 3px solid rgb(70, 140, 170);
 	white-space: nowrap;
 }
 #end1
 {
 	border-bottom-right-radius:10%;
 	border-top-right-radius:10%;
+
 }
 .fleche-basse
 {
 	color: #0088a9;
-    position: relative;
+    position: absolute;
     font-size: 30px;
-    right: -30px;
-    top:-12px;
+    right: 30px;
+    top:29px;
     opacity:0;
 }
-#selection div:hover .fleche-basse {
+#selection li:hover .fleche-basse {
 	opacity: 1;
 }
 #selection a{
@@ -373,12 +374,14 @@ figcaption{
 	height: 35%;
 	line-height: 50%;
 }
+figure:hover figcaption
+{
+    visibility: visible;
+}
 figcaption h3, figcaption p{
     margin-left: 15px;
 }
-figure:hover figcaption{
-    visibility: visible;
-}
+
 .eye{   /* oeil sur le figcaption*/
     height: 30px;
     width: 30px;
