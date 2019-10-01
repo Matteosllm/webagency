@@ -341,11 +341,24 @@ h1+p
     border-bottom: 3px solid rgb(70, 140, 170);
 }
 /*fin menu*/
+
 #portfolio
 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;	
+	display: flex;
+	justify-content: center;
+	flex-flow:column;	
+}
+#quatre
+{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: center;
+}
+#huit
+{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 .descr
 {
@@ -537,7 +550,7 @@ header nav li:hover{
 	}
 	/*fin accueil*/
 	/*service*/
-#ordi
+#imac
 	{
 		display: none;
 	}
@@ -905,10 +918,62 @@ display:none;
 }
 }
  /*fin accueil*/
-@media all and (min-width: 1650px)
-{
-	.point-bleu-icones
+ @media all and (min-width: 1650px) and (max-width:1770px)
+ {
+	 .point-bleu-icones
+	 {
+		 left: 59%;
+	 }
+	 #service
+	 {
+		 justify-content: center;
+	 }
+	 .fas.fa-chevron-right
+	 {
+		 padding: 20px 60px 20px 10px;
+		 margin-left: 97.3%;
+		 margin-top: 350px;	
+	 }
+	 .fas.fa-chevron-left
+	 {
+		 margin-top: 350px;	}
+ }
+ @media all and (min-width: 1771px)
+ {
+	.fas.fa-chevron-right
 	{
-		left: 60%;
+		padding: 20px 60px 20px 10px;
+		margin-left: 97.3%;
+		margin-top: 350px;	
 	}
+	.fas.fa-chevron-left
+	{
+		margin-top: 350px;	}
+ #service
+ {
+	 justify-content: center;
+ }
+ .point-bleu-icones
+	 {
+		 left: -19%;
+		 top: -12%;
+	 }
+ #portfolio
+ {
+	 display: flex;
+	 justify-content: center;
+	 flex-flow:column;	
+ }
+ #quatre
+ {
+	 display: flex;
+	 flex-flow:row wrap;
+	 justify-content: center;
+ }
+ #huit
+ {
+	 display:flex;
+	 flex-flow: row wrap;
+	 justify-content: center;
+ }
 }
