@@ -941,13 +941,11 @@ display:none;
 	 }
 	 .fas.fa-chevron-right
 	 {
-		 padding: 20px 20px 20px 10px;
-		 margin-left: 97.7%;
-		 margin-top: 350px;	
+		 display: none;	
 	 }
 	 .fas.fa-chevron-left
 	 {
-		 margin-top: 350px;	}
+		 display: none;	}
 		 #image-fixe
 		 {
 			margin-top:100px;
@@ -958,6 +956,10 @@ display:none;
 			display: block;
 			opacity: 1;
 			
+		}
+		#texte
+		{
+			display: none;
 		}
 	 #slider
 	 {
@@ -983,7 +985,7 @@ display:none;
 	}
 	 #texte
 	 {
-		 text-align: center;
+		 display: none;
 		 
 	 }
 	 #slider
@@ -992,13 +994,12 @@ display:none;
 	 }
 	.fas.fa-chevron-right
 	{
-		padding: 20px 20px 20px 10px;
-		margin-left: 98.8%;
-		margin-top: 350px;	
+		display: none;
 	}
 	.fas.fa-chevron-left
 	{
-		margin-top: 350px;	}
+		display:none;
+	}
  #service
  {
 	 justify-content: center;
