@@ -2,7 +2,7 @@ html
 {
 	width:100%;
 	overflow-y: scroll;
-
+	overflow-x: hidden;
 	line-height: 150%;
 }
 body
@@ -942,26 +942,23 @@ display:none;
 	 .fas.fa-chevron-right
 	 {
 		 padding: 20px 20px 20px 10px;
-		 margin-left: 97.6%;
+		 margin-left: 97.7%;
 		 margin-top: 350px;	
 	 }
 	 .fas.fa-chevron-left
 	 {
 		 margin-top: 350px;	}
-	#image-fixe img
-	 {
-		 display: block;
-		 opacity: 1;
-		 
-	 }
-	 #image-fixe
-	 {
-		margin-top:100px;
-		margin-left: -100px;
-		width: 115%;
-		height: auto;
-		display: block;
-	 }
+		 #image-fixe
+		 {
+			margin-top:100px;
+			display: block;
+		 }
+		#image-fixe img
+		{
+			display: block;
+			opacity: 1;
+			
+		}
 	 #slider
 	 {
 		 display: none;
@@ -1029,4 +1026,13 @@ display:none;
 	 flex-flow: row wrap;
 	 justify-content: center;
  }
+}
+@media all and (min-width: 3300px)
+{
+	.fas.fa-chevron-right
+	{
+		padding: 20px 20px 20px 10px;
+		margin-left: 99.5%;
+		margin-top: 350px;	
+	}
 }
