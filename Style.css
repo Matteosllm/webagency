@@ -107,6 +107,17 @@ header nav a:hover
 }
 /*header fin*/
 /*images slider*/
+#fillette-image
+{
+	display: flex;
+	justify-content: center;
+	
+}
+#image-fixe
+{
+	
+	position: relative;
+}
 #page-accueil
 {
 	width: 100%;
@@ -364,12 +375,12 @@ h1+p
 {
 	color: white;
 }
-figure
+#portfolio figure
 {
     height: 200px;
     position: relative;
 }
-figure img
+#portfolio figure img
 {
     width: 280px;
 }
@@ -937,9 +948,45 @@ display:none;
 	 .fas.fa-chevron-left
 	 {
 		 margin-top: 350px;	}
+	#image-fixe img
+	 {
+		 display: block;
+		 opacity: 1;
+		 
+	 }
+	 #image-fixe
+	 {
+		margin-top:100px;
+		margin-left: -100px;
+		width: 115%;
+		height: auto;
+	 }
+	 #slider
+	 {
+		 display: none;
+	 }
  }
  @media all and (min-width: 1771px)
  {
+	 #image-fixe
+	 {
+		margin-top:100px;
+	 }
+	#image-fixe img
+	{
+		display: block;
+		opacity: 1;
+		
+	}
+	 #texte
+	 {
+		 text-align: center;
+		 
+	 }
+	 #slider
+	 {
+		 display: none;
+	 }
 	.fas.fa-chevron-right
 	{
 		padding: 20px 60px 20px 10px;
