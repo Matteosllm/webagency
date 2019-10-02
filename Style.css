@@ -2,7 +2,7 @@ html
 {
 	width:100%;
 	overflow-y: scroll;
-	overflow-x: hidden;
+
 	line-height: 150%;
 }
 body
@@ -115,7 +115,7 @@ header nav a:hover
 }
 #image-fixe
 {
-	
+	display:none;
 	position: relative;
 }
 #page-accueil
@@ -941,8 +941,8 @@ display:none;
 	 }
 	 .fas.fa-chevron-right
 	 {
-		 padding: 20px 60px 20px 10px;
-		 margin-left: 97.3%;
+		 padding: 20px 20px 20px 10px;
+		 margin-left: 97.6%;
 		 margin-top: 350px;	
 	 }
 	 .fas.fa-chevron-left
@@ -960,6 +960,7 @@ display:none;
 		margin-left: -100px;
 		width: 115%;
 		height: auto;
+		display: block;
 	 }
 	 #slider
 	 {
@@ -975,6 +976,7 @@ display:none;
 	 #image-fixe
 	 {
 		margin-top:100px;
+		display: block;
 	 }
 	#image-fixe img
 	{
@@ -994,7 +996,7 @@ display:none;
 	.fas.fa-chevron-right
 	{
 		padding: 20px 20px 20px 10px;
-		margin-left: 99%;
+		margin-left: 98.8%;
 		margin-top: 350px;	
 	}
 	.fas.fa-chevron-left
